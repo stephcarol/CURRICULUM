@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+:root {
+    background-color: #abd1c6;
+}
+
+
+h1 {
+    color: #004643;
+    font-family: 'DM Serif Display', serif;
+}
+
+h1, .h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  text-transform: uppercase;
+}
+
+
+.curriculum-grid {
+    display: grid;
+    grid-gap: 10px; /* Espacio entre elementos */
+    background-color: #fff;
+    text-align: left;
+    
+  }
+  
+  .section{
+    padding: 1cm;
+  }
+
+  .curriculum-grid h1, .curriculum-grid p, .curriculum-grid ul {
+    text-align: left;
+  }
+
+  .personal-information {
+    grid-column: 1 /2; /* Ocupa dos columnas completas */ 
+    background-color: #bd5d38;
+    justify-self: start;
+    padding: 0.75cm;
+  }
+
+form.form-example {
+    display: table;
+  }
+  
+  div.form-example {
+    display: table-row;
+  }
+  
+  label,
+  input {
+    display: table-cell;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    padding-right: 10px;
+  }
+  
+
+.imagen-personal {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.video{
+    width: "100";
+    height: "100";
+}
+
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.social-icon {
+    vertical-align: middle;
+  }
+
+
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    
+  }
+  .social-icons .social-icon:last-child {
+    margin-right: 0;
+  }
+  .social-icons .social-icon:hover {
+    background-color: #bd5d38;
+  }
+
+
+
+
+
+
